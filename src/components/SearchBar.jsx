@@ -16,10 +16,11 @@ const SearchBar = () => {
     mr:{sm:5}
    }}>
     <input
-    className='search-bar'
+    className="Search-bar"
     placeholder='Search...'
     value=""
     onChange={()=>{}}
+    
     />
     <IconButton type="submit" sx={{p:'10px',color:'red'}}>
         <Search/>
